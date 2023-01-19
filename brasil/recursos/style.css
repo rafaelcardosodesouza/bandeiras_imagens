@@ -1,0 +1,38 @@
+body {
+    background-color: #000;
+}
+#container {
+    background: #15cc05;
+    width: 780px;
+    height: 580px;
+    display: flex;
+    align-items: center;
+    /* centraliza o texto verticalmente */
+    justify-content: center;
+    margin: auto;
+    overflow: auto;
+}
+.amarelo {
+    background: yellow;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    transform: rotate(45deg);
+}
+.azul {
+    background: blue;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    margin: 20% auto;
+}
+.branco {
+    background: #fff;
+    width: 250px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: rotate(-45deg);
+    text-align: center;
+}
