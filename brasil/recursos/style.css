@@ -2,7 +2,7 @@ body {
     background-color: #000;
 }
 #container {
-    background: #15cc05;
+    background: #009c3b	;
     width: 780px;
     height: 580px;
     display: flex;
@@ -13,14 +13,14 @@ body {
     overflow: auto;
 }
 .amarelo {
-    background: yellow;
+    background: #ffdf00;
     position: relative;
     width: 400px;
     height: 400px;
     transform: rotate(45deg);
 }
 .azul {
-    background: blue;
+    background: #002776;
     width: 250px;
     height: 250px;
     border-radius: 100%;
@@ -35,4 +35,5 @@ body {
     left: 20%;
     transform: rotate(-45deg);
     text-align: center;
+    letter-spacing: 5px;
 }
