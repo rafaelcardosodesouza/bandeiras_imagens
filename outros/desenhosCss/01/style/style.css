@@ -1,21 +1,18 @@
-body{
+body {
     background: #000;
 }
 
-#container{
-    margin-top: 50px ;
+#container {
+    margin-top: 50px;
     display: flex;
     background: #000;
     width: 95vw;
     height: 80vh;
     flex-wrap: wrap-reverse;
     border-radius: 100%;
-    
-
-
 }
 
-:is(.p1, .p2, .p3){
+:is(.p1, .p2, .p3) {
     rotate: 45deg;
     margin: -5vh;
     width: 150px;
@@ -23,22 +20,20 @@ body{
     margin-left: 10vh;
     margin-top: 5vh;
     border-style: double;
-    
 }
 
-.p1{
-    
+.p1 {
     background-color: #00ced1;
 }
-.p2{
-    
+
+.p2 {
     background-color: #66cdaa;
 }
-.p3{
-    
+
+.p3 {
     background-color: #5f9ea0;
 }
-:is(.p1, .p2, .p3):hover{
+
+:is(.p1, .p2, .p3):hover {
     box-shadow: inset -12px 10px 75px 0px rgb(255, 255, 255);
-    
 }
