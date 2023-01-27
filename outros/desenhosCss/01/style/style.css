@@ -1,0 +1,37 @@
+body{
+    background: #000;
+}
+
+#container, #container2{
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    background: #000;
+
+}
+
+
+.p1, .p2, .p3{
+    rotate: 45deg;
+    margin: -10vh;
+}
+.p1a, .p2b, .p3c{
+    rotate: 45deg;
+    margin: 50px;
+}
+.p1, .p1a{
+    width: 250px;
+    height: 250px;
+    background-color: #00ced1;
+}
+.p2, .p2b{
+    width: 250px;
+    height: 250px;
+    background-color: #66cdaa;
+}
+.p3, .p3c{
+    width: 250px;
+    height: 250px;
+    background-color: #5f9ea0;
+}
